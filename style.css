@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header img {
+    width: 100%;
+}
+.img-com{
+    background-color: ##ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    
+}
+.form-container {
+    background-color: #8d1100;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #ffffff9c;
+    color: #fff;
+}
+
+input:focus {
+    border-color: #007bff;
+}
+.elementor {
+    width: 97%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #ffffff9c;
+    color: #fff;
+}
+
+.elementor:focus {
+    border-color: #007bff;
+}
+
+.verify-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffc700;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.verify-button:hover {
+    background-color: #0056b3;
+}
+
+/* pinding */
+.payment-methods {
+    display: flex;
+    flex-direction: column;
+}
+
+.payment-button {
+    background-color: transparent;
+    border: 2px solid #ff0000;
+    color: #ff0000;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 19px;
+}
+
+.payment-button:hover {
+    background-color: #ffe740;
+    color: white;
+}
+
+.loader-container {
+            width: 350px;
+            height: 10px;
+            left: 10px;
+            border: 1px solid #ddd;
+            overflow: hidden;
+            position: relative;
+            border-radius: 10px;
+        }
+        .loader {
+            width: 10%; height: 100%;
+            background: linear-gradient(90deg, #11ff00, #11ff00, #11ff00);
+            animation: loader 100s linear infinite; box-shadow: 0 0 25px #11ff00;
+        }
+
+        @keyframes loader {
+            0% { width: 10%; }
+            100% { width: 100%; } 
+        
+        }        
